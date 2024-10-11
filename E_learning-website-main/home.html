@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+
+    <img src="logo.png" alt="logo" style="width:140px;height:60px;">
+
+    <div class="topnav-right">
+
+        <button onclick="document.location='HOME.html'">Home</button>
+
+        <button onclick="document.location='register.html'">Course Material</button>
+
+        <button onclick="document.location='Query Desk.html'">Query Desk</button>
+
+        <button onclick="document.location='contact.html'">Contact</button>
+
+        <button onclick="document.location='terms&policy.html'">Terms&policy</button>
+
+        <button onclick="document.location='register.html'">Login</button>
+               
+    </div>
+
+</nav>
+
+    <div class="centered">
+        
+
+         <h1>Explore the world of Engineering</h1>
+         <p>ENGINEERING 24 HOURS</p>
+
+         <form action="search.php" method="post">      
+             <input type="text" name="search" placeholder="Search..">
+             <button type="submit">Submit</button>
+        </form>
+
+         
+    </div>  
+
+        <div class="footer_up">
+         
+                <p style="color:rgb(0, 0, 0);" >"The engineer has been, and is, a maker of history"</p>
+                <p style="color:rgb(0, 0, 0);" >-James Kip Finch</p>
+         
+        </div>
+    
+    
+
+    <div class="footer">
+        <p style="color:rgb(0, 0, 0);" >114 TownHall, Berhampur| phone:+0000000000| Email:engineering24hrs@gmail.com</p>
+    </div>
+    
+
+ 
+<style> 
+    body {
+      background-image: url("home1.jpg");
+      background-color: #cccccc;
+      font-family: Arial, Helvetica, sans-serif;}
+
+    h1 {
+        text-align: center;
+        color: rgb(255, 255, 255);}
+    p {
+        text-align: center;
+        color: rgb(213, 213, 228);}
+    div {
+        text-align: center;
+        color: rgb(213, 213, 228);}
+
+    .center {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 90%;} 
+
+    .centered {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);} 
+    
+
+    .topnav-right {
+        float: right;}
+
+
+    
+    .topnav input[type=text] {
+        padding: 28px;
+        margin-top: 20px;
+        font-size: 17px;
+        border: none;
+        border: 1px solid #ccc; }  
+
+    
+
+    .footer_up {
+        position: fixed;
+        text-align: center;
+        width: 300px;
+        padding: 8px;
+        border: 2px solid rgb(16, 17, 17);
+        margin: 0;
+        width: 100%;
+        background-color: rgb(181, 237, 245);
+        text-align: center;}    
+
+    .footer {
+        position: fixed;
+        text-align: center;
+        width: 300px;
+        padding: 20px;
+        border: 2px solid rgb(16, 17, 17);
+        margin: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(181, 237, 245);
+        text-align: center;}
+
+
+     /*search box*/
+     
+    input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('search_icon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+
+</style>
+
+
+</body>
+</html>
